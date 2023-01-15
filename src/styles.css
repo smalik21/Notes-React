@@ -1,0 +1,179 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 600px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #ffebb7;
+}
+
+.Header {
+  padding: 1px 30px;
+  background-color: #ff6e31;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.Header h1 .icon {
+  margin: 0px 10px;
+  font-size: 120%;
+  margin-bottom: -6px;
+  color: #ffebb7;
+}
+
+.Header h1 {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffebb7;
+}
+
+.CreateArea {
+  position: relative;
+  width: 480px;
+  height: 150px;
+  margin: 20px auto 40px auto;
+  padding: 20px;
+  font-family: "Marcellus", serif;
+  background-color: #b5edba;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.CreateArea input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  font-family: "Play", sans-serif;
+  font-size: 2rem;
+  background-color: #b5edba;
+  border: none;
+  outline: none;
+}
+
+.CreateArea textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding-top: 10px;
+  font-family: "Play", sans-serif;
+  font-size: 1.2rem;
+  background-color: #b5edba;
+  border: none;
+  outline: none;
+}
+.CreateArea textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.CreateArea textarea {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.CreateArea button {
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  height: 0px;
+  width: 0px;
+  background-color: #b5edba;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+.CreateArea button .icon {
+  font-size: 3rem;
+  color: #c24914;
+  background-color: #b5edba;
+  border-radius: 50%;
+}
+
+.CreateArea button .icon:hover {
+  cursor: pointer;
+  color: #ff6e31;
+}
+
+.CreateArea button .icon:active {
+  color: #c24914;
+}
+
+.Notes {
+  position: absolute;
+  padding-bottom: 50px;
+}
+
+.Note {
+  float: left;
+  margin: 25px;
+  padding: 0px 20px 10px;
+  width: 288px;
+  min-height: 120px;
+  background-color: #243763;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.Note h1 {
+  font-family: "Marcellus", serif;
+  color: white;
+}
+
+.Note p {
+  font-family: "Marcellus", serif;
+  font-size: 1.2rem;
+  overflow-wrap: break-word;
+  color: #ffebb7;
+}
+
+.Note button {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: right;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.Note button .icon {
+  font-size: 2rem;
+  color: #ad8e70;
+}
+
+.Note button .icon:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.Note button .icon:active {
+  color: #ad8e70;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 1120px) {
+  .Notes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Header h1 {
+    text-align: center;
+  }
+}
