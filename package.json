@@ -1,5 +1,4 @@
 {
-  "homepage": "http://smalik21.github.io/Notes-React",
   "name": "notes-react",
   "version": "1.0.0",
   "description": "",
@@ -22,8 +21,6 @@
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
   },
   "browserslist": [
