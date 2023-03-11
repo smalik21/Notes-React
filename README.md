@@ -1,6 +1,14 @@
-# Notes-React
+# React Note Taking App
+This is a simple note taking application created using React.js. The app has two main features - adding and deleting notes.
 
-This is a simple note taking application created using React.js. 
-The app has two main features - adding and deleting notes. 
-To add a note, the user can enter a title, as well as a description of the note. 
-To delete a note, the user can simply click the ‘delete’ button. 
+## Features
+- Add a note with a title and description
+- Delete a note
+## Installation
+- Clone the repository: `git clone https://github.com/<username>/<repo-name>.git`
+- Install dependencies: `npm install`
+- Run the app: `npm start`
+## Usage
+- Enter a title and description for the note in the input fields.
+- Click the "+" button to add the note to the list.
+- To delete a note, click the "Delete" button next to the note.
