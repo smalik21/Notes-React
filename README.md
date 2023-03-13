@@ -5,7 +5,7 @@ This is a simple note taking application created using React.js. The app has two
 - Add a note with a title and description
 - Delete a note
 ## Installation
-- Clone the repository: `git clone https://github.com/<username>/<repo-name>.git`
+- Clone the repository: `git clone https://github.com/smalik21/Notes-React.git`
 - Install dependencies: `npm install`
 - Run the app: `npm start`
 ## Usage
